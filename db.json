@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Organic Fertilizer A",
+      "code": "ORG123",
+      "ingredients": [
+        { "name": "Nitrogen", "benefit": "Promotes leaf growth" },
+        { "name": "Potassium", "benefit": "Improves drought resistance" }
+      ],
+      "hazards": ["Excess nitrogen may harm soil microorganisms"],
+      "benefits": ["Increases crop yield", "Environmentally friendly"]
+    },
+    {
+      "id": 2,
+      "name": "Insecticide B",
+      "code": "INS456",
+      "ingredients": [
+        { "name": "Pyrethrin", "benefit": "Natural insecticide" }
+      ],
+      "hazards": ["Harmful to bees and other beneficial insects"],
+      "benefits": ["Effective against a wide range of pests"]
+    },
+    {
+      "id": 3,
+      "name": "Herbicide C",
+      "code": "HER789",
+      "ingredients": [
+        { "name": "Glyphosate", "benefit": "Broad-spectrum weed killer" }
+      ],
+      "hazards": ["May cause health problems with prolonged exposure"],
+      "benefits": ["Effective weed control"]
+    },
+    {
+      "id": 4,
+      "name": "Fungicide D",
+      "code": "FUN101",
+      "ingredients": [
+        { "name": "Sulfur", "benefit": "Natural fungicide" }
+      ],
+      "hazards": ["May cause skin irritation"],
+      "benefits": ["Controls fungal diseases"]
+    },
+    {
+      "id": 5,
+      "name": "Organic Compost E",
+      "code": "COM234",
+      "ingredients": [
+        { "name": "Manure", "benefit": "Adds nutrients to soil" },
+        { "name": "Compost", "benefit": "Improves soil structure" }
+      ],
+      "hazards": ["May contain pathogens if not properly composted"],
+      "benefits": ["Enhances soil fertility"]
+    },
+    {
+      "id": 6,
+      "name": "Plant Growth Stimulator F",
+      "code": "PGR567",
+      "ingredients": [
+        { "name": "Auxins", "benefit": "Promotes root development" },
+        { "name": "Gibberellins", "benefit": "Stimulates cell elongation" }
+      ],
+      "hazards": ["May affect plant growth if overused"],
+      "benefits": ["Increases plant growth and yield"]
+    },
+    {
+      "id": 7,
+      "name": "Soil Conditioner G",
+      "code": "SOC890",
+      "ingredients": [
+        { "name": "Perlite", "benefit": "Improves soil aeration" },
+        { "name": "Vermiculite", "benefit": "Increases water retention" }
+      ],
+      "hazards": ["May cause respiratory irritation if inhaled"],
+      "benefits": ["Enhances soil quality"]
+    },
+    {
+      "id": 8,
+      "name": "Natural Pest Repellent H",
+      "code": "NPR123",
+      "ingredients": [
+        { "name": "Peppermint Oil", "benefit": "Repels insects" },
+        { "name": "Neem Oil", "benefit": "Disrupts insect life cycle" }
+      ],
+      "hazards": ["May irritate skin and eyes"],
+      "benefits": ["Environmentally friendly pest control"]
+    },
+    {
+      "id": 9,
+      "name": "Seed Starter I",
+      "code": "SDS456",
+      "ingredients": [
+        { "name": "Cocopeat", "benefit": "Retains moisture" },
+        { "name": "Perlite", "benefit": "Improves drainage" }
+      ],
+      "hazards": ["May cause respiratory irritation if inhaled"],
+      "benefits": ["Ideal for starting seedlings"]
+    },
+    {
+      "id": 10,
+      "name": "Liquid Fertilizer J",
+      "code": "LQF789",
+      "ingredients": [
+        { "name": "Nitrogen", "benefit": "Promotes leaf growth" },
+        { "name": "Phosphorus", "benefit": "Enhances root development" },
+        { "name": "Potassium", "benefit": "Improves fruit and flower production" }
+      ],
+      "hazards": ["Excess nutrients may harm plants if overused"],
+      "benefits": ["Quick and easy to apply"]
+    }
+  ]
+}
