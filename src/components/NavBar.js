@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav>
         <a href='/Home/'>Home</a>
-        <a href=''>Search Products</a>
+        <a href='/Search/'>Search Products</a>
     </nav>
   )
 }
