@@ -2,7 +2,10 @@
  
  function Home() {
    return (
-     <div>Home</div>
+     <div>
+        <h1>Welcome to AgroScan</h1>
+        <p>Find detailed information about fertilizers and pesticides to improve your agriculture knowledge.</p>
+     </div>
    )
  }
  
