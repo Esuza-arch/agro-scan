@@ -8,9 +8,9 @@ function Search(setSearchResults) {
       .then((data) => setSearchResults(data))
   }
   return (
-    <div>
-      Search
-    </div>
+    <form>
+      <button onClick={handleSearch}>Search</button>
+    </form>
   )
 }
 
