@@ -1,9 +1,10 @@
-import React from 'react'
+import {useState} from 'react'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Search from './components/Search'
 
 function App() {
+  const [searchResults, setSearchResults] = useState([])
   return (
     <div>
       <NavBar />
