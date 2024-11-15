@@ -29,6 +29,15 @@ function App() {
     <Router>
       <div className='app'>
         <NavBar />
+        <main className="content">
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/search' element={
+              <> <Search onSearch={handleSearch} /> <ProductList products={filteredProducts} </>
+            } />
+            <Route path='/product/:id' element={<ProductDetails />} />
+          </Routes>
+        </main>
       </div>
     </Router>
   )
