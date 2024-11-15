@@ -14,7 +14,9 @@ function ProductDetails({ products }) {
   if (!product) return <p>Loading...</p>
 
   return (
-    <div>ProductDetails</div>
+    <div className='product-details'>
+      <h2>{product.name}</h2>
+    </div>
   )
 }
 
