@@ -1,9 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function ProductList() {
+function ProductList({ products }) {
   return (
-    <div>
-      <h2>Search Results</h2>
+    <div className='product-list'>
+      {products.map((product) => (
+        <div key={product.id} className='prodct-card'>
+          <h3>{product.name}</h3>
+          <p>Code: {product.code}</p>
+          <Link to={`/product/${product.id}`} className="view-details">
+            View Details
+          </Link>
+        </div>
+      ) )}
     </div>
   )
 }

@@ -25,7 +25,7 @@ function ProductDetails({ products }) {
             <p>Benefits: {ing.benefits}</p>
             <p>Hazards: {ing.hazards}</p>
           </li>
-        )) </ul>
+        ))} </ul>
       </div>
     </div>
   )
