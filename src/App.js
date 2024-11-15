@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Search from './components/Search'
 import ProductList from './components/ProductList'
+import ProductDetails from './components/ProductDetails'
 
 function App() {
   const [products, setProducts] = useState([])
@@ -27,19 +28,22 @@ function App() {
   }
   return (
     <Router>
-      <div className='app'>
-        <NavBar />
-        <main className="content">
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/search' element={
-              <> <Search onSearch={handleSearch} /> <ProductList products={filteredProducts} </>
-            } />
-            <Route path='/product/:id' element={<ProductDetails />} />
-          </Routes>
-        </main>
-      </div>
-    </Router>
+    <div className="app">
+      <NavBar />
+      <main className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={
+            <>
+              <Search onSearch={handleSearch} />
+              <ProductList products={filteredProducts} />
+            </>
+          } />
+          <Route path="/product/:id" element={<ProductDetails />} />
+        </Routes>
+      </main>
+    </div>
+  </Router>
   )
 }
 
