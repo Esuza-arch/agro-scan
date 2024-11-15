@@ -14,7 +14,10 @@
             <h3>Ingredient Analysis</h3>
             <p>Learn about chmical compositions and their effects</p>
           </div>
-          
+          <div>
+            <h3>Safety Information</h3>
+            <p>Understand hazards and safety precautions</p>
+          </div>
         </div>
      </div>
    )
