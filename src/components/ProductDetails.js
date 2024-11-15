@@ -19,7 +19,13 @@ function ProductDetails({ products }) {
       <p>Code: {product.code}</p>
       <div className="ingredients">
         <h3>Ingredients</h3>
-        <ul> {product.ingredients.map((ing, index) => ()) </ul>
+        <ul> {product.ingredients.map((ing, index) => (
+          <li key={index}>
+            <h4>{ing.name}</h4>
+            <p>Benefits: {ing.benefits}</p>
+            <p>Hazards: {ing.hazards}</p>
+          </li>
+        )) </ul>
       </div>
     </div>
   )
