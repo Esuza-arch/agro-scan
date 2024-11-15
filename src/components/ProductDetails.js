@@ -16,6 +16,10 @@ function ProductDetails({ products }) {
   return (
     <div className='product-details'>
       <h2>{product.name}</h2>
+      <p>Code: {product.code}</p>
+      <div className="ingredients">
+        <h3>Ingredients</h3>
+      </div>
     </div>
   )
 }
