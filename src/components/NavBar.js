@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 function NavBar() {
   return (
     <nav>
-        <a href='/Home/'>Home</a>
-        <a href='/Search/'>Search Products</a>
+        <h1>AgroScan Database</h1>
+        <div>
+            <Link to="/">Home</Link>
+            <Link to="/search">Search Products</Link>
+        </div>
     </nav>
   )
 }
