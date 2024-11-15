@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Search from './components/Search'
 import ProductList from './components/ProductList'
 import ProductDetails from './components/ProductDetails'
+import './App.css'
 
 function App() {
   const [products, setProducts] = useState([])
