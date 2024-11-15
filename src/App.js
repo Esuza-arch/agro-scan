@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Search from './components/Search'
@@ -25,12 +26,9 @@ function App() {
     setFilteredProducts(filtered)
   }
   return (
-    <div>
-      <NavBar />
-      <Home />
-      <Search searchResults={searchResults} setSearchResults={setSearchResults} />
-      <ProductList products={products}/>
-    </div>
+    <Router>
+      
+    </Router>
   )
 }
 
