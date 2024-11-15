@@ -12,7 +12,7 @@
           </div>
           <div className='feature'>
             <h3>Ingredient Analysis</h3>
-            <p>Learn about chmical compositions and their effects</p>
+            <p>Learn about chemical compositions and their effects</p>
           </div>
           <div className='feature'>
             <h3>Safety Information</h3>
