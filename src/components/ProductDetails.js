@@ -19,6 +19,7 @@ function ProductDetails({ products }) {
       <p>Code: {product.code}</p>
       <div className="ingredients">
         <h3>Ingredients</h3>
+        <ul> {product.ingredients.map((ing, index) => ()) </ul>
       </div>
     </div>
   )
