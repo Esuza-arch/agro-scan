@@ -10,6 +10,11 @@
             <h3>Search Products</h3>
             <p>Find detailed information about fertilizers and pesticides</p>
           </div>
+          <div>
+            <h3>Ingredient Analysis</h3>
+            <p>Learn about chmical compositions and their effects</p>
+          </div>
+          
         </div>
      </div>
    )
