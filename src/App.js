@@ -6,13 +6,11 @@ import ProductList from './components/ProductList'
 
 function App() {
   const [products, setProducts] = useState([])
-  const [searchResults, setSearchResults] = useState([])
+  const [filteredProducts, setFilteredProducts] = useState([])
 
-  useEffect(() => {
-    fetch('http://localhost:3001/products')
-      .then((res) => res.json())
-      .then((data) => setProducts(data))
-  }, [])
+  useEffect(() =>
+    fetch()
+)
   return (
     <div>
       <NavBar />
