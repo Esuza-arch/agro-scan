@@ -7,12 +7,11 @@ function Search() {
     e.preventDefault()
     onSearch(searchTerm)
   }
-  
+
   return (
-    <form>
-      <input type='text' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder='Search product by name' />
-      <button onClick={handleSearch}>Search</button>
-    </form>
+    <div>
+      <h2>Search Products</h2>
+    </div>
   )
 }
 
