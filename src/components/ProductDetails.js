@@ -22,8 +22,14 @@ function ProductDetails({ products }) {
         <ul> {product.ingredients.map((ing, index) => (
           <li key={index}>
             <h4>{ing.name}</h4>
-            <p>Benefits: {ing.benefits}</p>
-            <p>Hazards: {ing.hazards}</p>
+            <p>Effect on soil: {ing.soilEffect}</p>
+            <p>Effect on plants: {ing.hazards}</p>
+            {ing.hazardous && (
+              <div className="hazard-warning">
+                <h5>⚠️ Hazard Warning</h5>
+                <p>{ing.hazardInfo}</p>
+              </div>
+            )}
           </li>
         ))} </ul>
       </div>
