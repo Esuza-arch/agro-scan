@@ -1,223 +1,171 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Organic Fertilizer A",
-      "code": "ORG123",
+      "id": 1,
+      "name": "GrowMax Plus",
+      "code": "GMP001",
+      "type": "Fertilizer",
       "ingredients": [
         {
-          "name": "Nitrogen",
-          "benefit": "Promotes leaf growth"
+          "name": "Nitrogen (N)",
+          "soilEffect": "Enhances soil fertility",
+          "plantEffect": "Promotes leaf growth and green color",
+          "hazardous": false
         },
         {
-          "name": "Potassium",
-          "benefit": "Improves drought resistance"
+          "name": "Phosphorus (P)",
+          "soilEffect": "Improves root development",
+          "plantEffect": "Supports flower and fruit development",
+          "hazardous": false
         }
-      ],
-      "hazards": [
-        "Excess nitrogen may harm soil microorganisms"
-      ],
-      "benefits": [
-        "Increases crop yield",
-        "Environmentally friendly"
       ]
     },
     {
-      "id": "2",
-      "name": "Insecticide B",
-      "code": "INS456",
+      "id": 2,
+      "name": "BugClear Ultra",
+      "code": "BCU002",
+      "type": "Pesticide",
       "ingredients": [
         {
           "name": "Pyrethrin",
-          "benefit": "Natural insecticide"
+          "soilEffect": "Minimal soil impact",
+          "plantEffect": "Controls insects",
+          "hazardous": true,
+          "hazardInfo": "Toxic to beneficial insects and aquatic organisms"
         }
-      ],
-      "hazards": [
-        "Harmful to bees and other beneficial insects"
-      ],
-      "benefits": [
-        "Effective against a wide range of pests"
       ]
     },
     {
-      "id": "3",
-      "name": "Herbicide C",
-      "code": "HER789",
+      "id": 3,
+      "name": "RootBoost Pro",
+      "code": "RBP003",
+      "type": "Fertilizer",
       "ingredients": [
         {
-          "name": "Glyphosate",
-          "benefit": "Broad-spectrum weed killer"
+          "name": "Phosphorus (P)",
+          "soilEffect": "Enhances root development",
+          "plantEffect": "Stronger root system",
+          "hazardous": false
         }
-      ],
-      "hazards": [
-        "May cause health problems with prolonged exposure"
-      ],
-      "benefits": [
-        "Effective weed control"
       ]
     },
     {
-      "id": "4",
-      "name": "Fungicide D",
-      "code": "FUN101",
+      "id": 4,
+      "name": "LeafShine Plus",
+      "code": "LSP004",
+      "type": "Fertilizer",
+      "ingredients": [
+        {
+          "name": "Nitrogen (N)",
+          "soilEffect": "Enhances soil fertility",
+          "plantEffect": "Vibrant leaf color",
+          "hazardous": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PestGuard Max",
+      "code": "PGM005",
+      "type": "Pesticide",
+      "ingredients": [
+        {
+          "name": "Neem Oil",
+          "soilEffect": "Minimal soil impact",
+          "plantEffect": "Repels pests",
+          "hazardous": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "SoilEnrich Plus",
+      "code": "SEP006",
+      "type": "Soil Conditioner",
+      "ingredients": [
+        {
+          "name": "Compost",
+          "soilEffect": "Improves soil structure and fertility",
+          "plantEffect": "Healthier plants",
+          "hazardous": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Fungicide Forte",
+      "code": "FF007",
+      "type": "Fungicide",
       "ingredients": [
         {
           "name": "Sulfur",
-          "benefit": "Natural fungicide"
+          "soilEffect": "Minimal soil impact",
+          "plantEffect": "Controls fungal diseases",
+          "hazardous": false
         }
-      ],
-      "hazards": [
-        "May cause skin irritation"
-      ],
-      "benefits": [
-        "Controls fungal diseases"
       ]
     },
     {
-      "id": "5",
-      "name": "Organic Compost E",
-      "code": "COM234",
+      "id": 8,
+      "name": "WeedOut Pro",
+      "code": "WOP008",
+      "type": "Herbicide",
       "ingredients": [
         {
-          "name": "Manure",
-          "benefit": "Adds nutrients to soil"
+          "name": "Glyphosate",
+          "soilEffect": "May harm beneficial soil organisms",
+          "plantEffect": "Kills weeds",
+          "hazardous": true,
+          "hazardInfo": "Toxic to aquatic life"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "PlantBoost XL",
+      "code": "PBX009",
+      "type": "Fertilizer",
+      "ingredients": [
+        {
+          "name": "Nitrogen (N)",
+          "soilEffect": "Enhances soil fertility",
+          "plantEffect": "Promotes leaf growth and green color",
+          "hazardous": false
         },
         {
-          "name": "Compost",
-          "benefit": "Improves soil structure"
-        }
-      ],
-      "hazards": [
-        "May contain pathogens if not properly composted"
-      ],
-      "benefits": [
-        "Enhances soil fertility"
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Plant Growth Stimulator F",
-      "code": "PGR567",
-      "ingredients": [
-        {
-          "name": "Auxins",
-          "benefit": "Promotes root development"
+          "name": "Phosphorus (P)",
+          "soilEffect": "Improves root development",
+          "plantEffect": "Supports flower and fruit development",
+          "hazardous": false
         },
         {
-          "name": "Gibberellins",
-          "benefit": "Stimulates cell elongation"
+          "name": "Potassium (K)",
+          "soilEffect": "Enhances nutrient uptake",
+          "plantEffect": "Improves disease resistance",
+          "hazardous": false
         }
-      ],
-      "hazards": [
-        "May affect plant growth if overused"
-      ],
-      "benefits": [
-        "Increases plant growth and yield"
       ]
     },
     {
-      "id": "7",
-      "name": "Soil Conditioner G",
-      "code": "SOC890",
+      "id": 10,
+      "name": "InsectShield Plus",
+      "code": "ISP010",
+      "type": "Pesticide",
       "ingredients": [
         {
-          "name": "Perlite",
-          "benefit": "Improves soil aeration"
-        },
-        {
-          "name": "Vermiculite",
-          "benefit": "Increases water retention"
-        }
-      ],
-      "hazards": [
-        "May cause respiratory irritation if inhaled"
-      ],
-      "benefits": [
-        "Enhances soil quality"
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Natural Pest Repellent H",
-      "code": "NPR123",
-      "ingredients": [
-        {
-          "name": "Peppermint Oil",
-          "benefit": "Repels insects"
+          "name": "Pyrethrin",
+          "soilEffect": "Minimal soil impact",
+          "plantEffect": "Controls insects",
+          "hazardous": true,
+          "hazardInfo": "Toxic to beneficial insects and aquatic organisms"
         },
         {
           "name": "Neem Oil",
-          "benefit": "Disrupts insect life cycle"
+          "soilEffect": "Minimal soil impact",
+          "plantEffect": "Repels pests",
+          "hazardous": false
         }
-      ],
-      "hazards": [
-        "May irritate skin and eyes"
-      ],
-      "benefits": [
-        "Environmentally friendly pest control"
       ]
-    },
-    {
-      "id": "9",
-      "name": "Seed Starter I",
-      "code": "SDS456",
-      "ingredients": [
-        {
-          "name": "Cocopeat",
-          "benefit": "Retains moisture"
-        },
-        {
-          "name": "Perlite",
-          "benefit": "Improves drainage"
-        }
-      ],
-      "hazards": [
-        "May cause respiratory irritation if inhaled"
-      ],
-      "benefits": [
-        "Ideal for starting seedlings"
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Liquid Fertilizer J",
-      "code": "LQF789",
-      "ingredients": [
-        {
-          "name": "Nitrogen",
-          "benefit": "Promotes leaf growth"
-        },
-        {
-          "name": "Phosphorus",
-          "benefit": "Enhances root development"
-        },
-        {
-          "name": "Potassium",
-          "benefit": "Improves fruit and flower production"
-        }
-      ],
-      "hazards": [
-        "Excess nutrients may harm plants if overused"
-      ],
-      "benefits": [
-        "Quick and easy to apply"
-      ]
-    },
-    {
-      "id": "8711",
-      "name": "",
-      "code": "",
-      "description": "",
-      "ingredients": [],
-      "hazardous": []
-    },
-    {
-      "id": "1025",
-      "name": "",
-      "code": "",
-      "description": "",
-      "ingredients": [],
-      "hazardous": []
     }
   ]
 }
