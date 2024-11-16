@@ -12,7 +12,7 @@ function App() {
   const [filteredProducts, setFilteredProducts] = useState([])
 
   useEffect(() => {
-    fetch('https://json-server-template-vlwn.onrender.com/products')
+    fetch('https://agro-scan-backend-5xor.onrender.com/products')
       .then(res => res.json())
       .then(data => {
         setProducts(data)
