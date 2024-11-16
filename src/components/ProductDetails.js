@@ -6,7 +6,7 @@ function ProductDetails({ products }) {
   const { id } = useParams()
 
   useEffect(() => {
-    fetch(`http://localhost:3001/products/${id}`)
+    fetch(`https://json-server-template-vlwn.onrender.com/products/${id}`)
       .then(res => res.json())
       .then(data => setProduct(data))
   }, [id])

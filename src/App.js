@@ -12,7 +12,7 @@ function App() {
   const [filteredProducts, setFilteredProducts] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3001/products')
+    fetch('https://json-server-template-vlwn.onrender.com/products')
       .then(res => res.json())
       .then(data => {
         setProducts(data)
